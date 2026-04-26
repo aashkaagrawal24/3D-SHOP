@@ -1,0 +1,11 @@
+{
+  "name": "3d-shop",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "npm --prefix client install && npm --prefix client run build"
+  },
+  "dependencies": {
+    "openai": "^3.2.1"
+  }
+}
